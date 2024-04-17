@@ -1,8 +1,8 @@
 ---
 title: "Martial Arts Trainer"
-summary: "Augment you Martial Arts training! Every Martial Artist knows that balance is key, and ensuring you have good notes so you can self-train, helps achieve mastery."
-image: /images/catch-up.jpg
-imageAlt: "Screenshots of catch up app"
+summary: "Augment your Martial Arts training! This Martial Arts Trainer offers a digital database to store your martial arts cirriculum for review and self-training to help achieve mastery."
+image: /images/MATrainer.png
+imageAlt: "Screenshots of Martial Arts Trainer app"
 tech:
   - "JavaScript"
   - "React"

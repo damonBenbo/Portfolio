@@ -1,8 +1,8 @@
 ---
 title: "Interactive Pokedex!"
-summary: "Be the pokemon trainer Ash Ketchum apired to be, with Interactive Pokedex! Search Pokemon and learn about each ones strenghts and weakness, save your favorites, or craft a dream team!"
-image: /images/catch-up.jpg
-imageAlt: "Screenshots of catch up app"
+summary: "Who's that Pokemon?! Be the pokemon trainer Ash Ketchum aspired to be with your very own Interactive Pokedex! This Interactive Pokedex allows you to look up information about each Pokemon's unique attributes and abilities; as well as where you can find them. Save your favorites to craft your dream team!"
+image: /images/interactivepokedex.png
+imageAlt: "Screenshots of Interactive Pokedex app"
 tech:
   - "Python"
   - "Flask"
