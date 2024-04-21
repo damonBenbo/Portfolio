@@ -9,22 +9,23 @@ tech:
   - "SQLAlchemy"
   - "Jinja"
   - "BCrypt"
-siteUrl: "#"
-repoUrl: "#"
+siteUrl: "#https://interactivepokedex.onrender.com/"
+repoUrl: "#https://github.com/damonBenbo/pokedex"
 ---
 
 ### Problem Solved
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+While there are Wiki's and sites to look up information on Pokemon, I wanted to craft one that is a bit more fun! Growing up I had a Pokedex much like the original one used for my base image. By the time I was finished, we have the interactive pokedex that you see now.
 
 ### Technologies Used
 
-Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Consequat ac felis donec et odio pellentesque diam volutpat commodo.
+The bulk of this app was made using Python and Python libraries. Flask was utilized to make the front end of the application and Jinja to create my templates to create a consistent disign throughout the website. For the backend, BCrypt was used to hash & salt users information when creating an account while SQLAlchemy was utilized to implement full CRUD in my database so users could create Pokemon teams or just to create a favorites list.
 
 ### Challenges Faced
 
-Eget mauris pharetra et ultrices. Molestie nunc non blandit massa enim nec. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nulla at volutpat diam ut venenatis. Volutpat ac tincidunt vitae semper quis lectus nulla at.
+One of the first challenges in creating any app is anticipating database tables and what kind of relationships you want among your tables. It was also challenging deciding how I wanted to setup using the PokeAPI to serve users data about the pokemon they are looking up, did I want to load my database ahead of time to reduce any further API calls? In the end I decided a hybrid approach, if a pokemon had previously been searched it would pull its info from my database, if it was a new one that has not been searched yet, it would make the request to the PokeAPI and then add the pokemons information to my database to reduce work needed in the future.
+
+Then there was the design challenge of creating a layout that fit on top of the image of the pokedex, thus creating the interactive pokedex.
 
 ### Lessons Learned
 
-Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo.
