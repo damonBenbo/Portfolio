@@ -29,3 +29,8 @@ Then there was the design challenge of creating a layout that fit on top of the 
 
 ### Lessons Learned
 
+It's important to get a minimum viable product (MVP) up and running, this helps with building a strong foundation to work around when building any application.
+
+Python is an excellent language, and though it isn't the first thing I think of when building a front end, I'm very excited to have the experience of it in my arsenal. 
+
+While figuring out the database schema is very important, if you working with an application in its infancy, I found that its the best to push the limits early on to anticipate your users needs.

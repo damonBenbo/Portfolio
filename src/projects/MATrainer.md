@@ -10,22 +10,26 @@ tech:
   - "MYSQL"
   - "Express"
   - "BCrypt"
-siteUrl: "#"
-repoUrl: "#"
+siteUrl: "#https://matrainer-e0k8.onrender.com/"
+repoUrl: "#https://github.com/damonBenbo/MATrainer"
 ---
 
 ### Problem Solved
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+If you're a practitioner of Martial Arts, you know how important notes can be. With Martial Arts Trainer, this is something I wanted to address. Paper notes have their limitations; They can get lost, fade over time, or you may not remember the details of the techniques you've written down. With Martial Arts Trainer, you can have a digital copy of your notes, write as much as you want and be as detailed as possible, and add links to a video!
 
 ### Technologies Used
 
-Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Consequat ac felis donec et odio pellentesque diam volutpat commodo.
+The bulk of the app is made using React for the front end which allowed me to create a responsive and reusable interface. I levereaged Node for my backend building on it with using Express to help facilitate my secure authorization with middleware as well as serving things from my database.
+
+I created a custom API to interact with my database so users can utilize full CRUD. I wanted to fill my database with a good foundation of techniques, but ultimately, users have full control to add their own techniques and modify existing ones to match their exact needs.
 
 ### Challenges Faced
 
-Eget mauris pharetra et ultrices. Molestie nunc non blandit massa enim nec. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nulla at volutpat diam ut venenatis. Volutpat ac tincidunt vitae semper quis lectus nulla at.
+Setting up middleware to facitate users to access their profiles and accessing the users tokens was a challenge at first. I had to decide how I wanted to use the authentication either by using JWT (JSON Web Tokens) or using a token in a payload. I ultimately decided to utilize JWT as they were very easy and secure to setup.
 
 ### Lessons Learned
 
-Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo.
+React is a very strong tool for building interactive and consistent front ends and can really speed up your progress. You also get props and state which can be immensly helpful when creating and updating front end interfaces.
+
+The biggest thing I learned however is how much I love working with Node. The asyncronous nature and being able to handle multiple things at once is quite nice. I also really liked how easy it was to work with my database and handle my user authentication with middleware.
