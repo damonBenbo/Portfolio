@@ -20,7 +20,7 @@ If you're a practitioner of Martial Arts, you know how important notes can be. W
 
 ### Technologies Used
 
-The bulk of the app is made using React for the front end which allowed me to create a responsive and reusable interface. I levereaged Node for my backend building on it with using Express to help facilitate my secure authorization with middleware as well as serving things from my database.
+The bulk of the app is made using React for the front end which allowed me to create a responsive and reusable interface. I leveraged Node for my backend building on it with using Express to help facilitate my secure authorization with middleware as well as serving things from my database.
 
 I created a custom API to interact with my database so users can utilize full CRUD. I wanted to fill my database with a good foundation of techniques, but ultimately, users have full control to add their own techniques and modify existing ones to match their exact needs.
 
