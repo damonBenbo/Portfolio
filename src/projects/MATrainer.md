@@ -16,7 +16,9 @@ repoUrl: "#https://github.com/damonBenbo/MATrainer"
 
 ### Problem Solved
 
-If you're a practitioner of Martial Arts, you know how important notes can be. With Martial Arts Trainer, this is something I wanted to address. Paper notes have their limitations; They can get lost, fade over time, or you may not remember the details of the techniques you've written down. With Martial Arts Trainer, you can have a digital copy of your notes, write as much as you want and be as detailed as possible, and add links to a video!
+If you're a practitioner of Martial Arts, you know how important notes can be. With Martial Arts Trainer, this is something I wanted to address. Paper notes have their limitations; They can get lost, fade over time, or you may not remember the details of the techniques you've written down. 
+
+With Martial Arts Trainer, you can have a digital copy of your notes, write as much as you want and be as detailed as possible, and add links to a video!
 
 ### Technologies Used
 
