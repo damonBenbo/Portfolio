@@ -15,7 +15,7 @@ repoUrl: "#https://github.com/damonBenbo/warbler"
 
 ### Problem Solved
 
-While there was no problem really solved with this, I had fun working with building a twitter knock off. It helped me get more comfortable using Python as a front end tool.
+While there was no problem really solved with this, I had fun working with and what goes into social media websites similar to Twitter/X. Warbler helped me understand how to apply Python as a front end tool.
 
 ### Technologies Used
 
@@ -25,8 +25,8 @@ For the backend, SQLAlchemy was used for facilitating changes in the database. T
 
 ### Challenges Faced
 
-The biggest with this exercise was just familiarizing myself with Flask a bit more and getting comfortable with it.
+The challenges faced in this exercise helped me understand how to use Python for a Full Stack website. The benefit of this exercise was familiarizing myself with Flask in a way that is relevant to popularly consumed media.
 
 ### Lessons Learned
 
-Sometimes it's not always the most radical design choices that create an appealing looking website, there is beauty in simplicity.
+As social media websites follow consumer trends, Full Stack web developement offers opportunities to create an appealing looking website that is user friendly and engaging. 
