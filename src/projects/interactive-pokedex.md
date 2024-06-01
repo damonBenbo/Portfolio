@@ -17,6 +17,14 @@ repoUrl: "#https://github.com/damonBenbo/pokedex"
 
 While there are Wiki's and sites to look up information on Pokemon, I wanted to craft one that is a bit more fun! Growing up I had a Pokedex much like the original one used for my base image. By the time I was finished, we have the interactive pokedex that you see now.
 
+I was also faced with another issue, each time a user would look up a pokemon, it would require an API call to the PokeAPI. I thought of two approaches to help mitigate the work load however. 
+
+The first would require me filling a database with all the pokemon information ahead of time so the user would be accessing my databse instead of making an API call everytime a pokemon was searched.
+
+The second approach took me a bit longer to think of, but it felt like the best choice given this problem. At the time, I didn't know that there was a specific method name for what I had implemented but I later found out it was called memoization. 
+
+Essentially this means that if a user looked up a pokemon, it would first check my database to see if the information was already available there. If it wasn't, it would then make use of the PokeAPI and after collecting the information, would add it to my database so that the next time a user looks up that specific pokemon, it happens much faster and is less resource intensive.
+
 ### Technologies Used
 
 The bulk of this app was made using Python and Python libraries. Flask was utilized to make the front end of the application and Jinja to create my templates to create a consistent disign throughout the website. For the backend, BCrypt was used to hash & salt users information when creating an account while SQLAlchemy was utilized to implement full CRUD in my database so users could create Pokemon teams or just to create a favorites list.
