@@ -24,7 +24,7 @@
 html,
 body {
     height: 100%;
-    background-color: #444;
+    background-color: #fdf7e6
 }
 
 html:focus-within {
