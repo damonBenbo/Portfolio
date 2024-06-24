@@ -25,7 +25,7 @@ The bulk of this app was made using Python and Python libraries. Flask was utili
 
 One of the first challenges in creating any app is anticipating database tables and what kind of relationships you want among your tables. It was also challenging deciding how I wanted to setup using the PokeAPI to serve users data about the pokemon they are looking up, did I want to load my database ahead of time to reduce any further API calls? 
 
-In the end I decided a hybrid approach that I later found out had a name, memoization, if a pokemon had previously been searched it would pull its info from my database, if it was a new one that has not been searched yet, it would make the request to the PokeAPI and then add the pokemons information to my database to reduce work needed in the future.
+In the end I decided a hybrid approach that I later found out had a name, [memoization](https://en.wikipedia.org/wiki/Memoization), if a pokemon had previously been searched it would pull its info from my database, if it was a new one that has not been searched yet, it would make the request to the PokeAPI and then add the pokemons information to my database to reduce work needed in the future.
 
 Then there was the design challenge of creating a layout that fit on top of the image of the pokedex, thus creating the interactive pokedex.
 
